@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mudassar123khan.github.io/weather-app",
   "name": "weather-app",
   "private": true,
   "version": "0.0.0",
@@ -21,6 +20,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
+  "homepage": "https://mudassar123khan.github.io/weather-app",
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@types/react": "^19.1.8",
