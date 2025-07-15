@@ -25,7 +25,8 @@ export default function SearchBox() {
         temp:jsonData.main.temp,
         humidity:jsonData.main.humidity,
         windSpeed:jsonData.wind.speed,
-        feelsLike:jsonData.main.feels_like
+        feelsLike:jsonData.main.feels_like,
+        description:jsonData.weather[0].description
       };
       setWeather(result);
       setError(false)

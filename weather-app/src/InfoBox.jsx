@@ -33,7 +33,8 @@ export default function InfoBox({ weatherData }) {
               <div>Temperature:{weatherData.temp}&deg;C</div>
               <div>Humidity:{weatherData.humidity}</div>
               <div>Wind Speed:{weatherData.windSpeed}kmph</div>
-              <div>The weather feels like:{weatherData.feelsLike} and it is very good weather in the location</div>
+              <div>The weather feels like:{weatherData.feelsLike}and described as <i>{weatherData.description}</i></div>
+             
             </Typography>
           </CardContent>
         </Card>
